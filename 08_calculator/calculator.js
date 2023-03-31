@@ -23,12 +23,17 @@ const multiply = function(array) {
   return product;
 };
 
-const power = function() {
-	
+const power = function(a, b) {
+	let pow = a ** b;
+  return pow;
 };
 
-const factorial = function() {
-	
+const factorial = function(n) {
+	let fact = 1; 
+  for (let i = n; i >= 1; i--) {
+    fact *= i;
+  }
+  return fact;
 };
 
 // Do not edit below this line
